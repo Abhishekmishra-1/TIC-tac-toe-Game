@@ -27,22 +27,18 @@ if(j==3)
  b[i].setBounds(x,y,100,100);  
 add(b[i]);  
 b[i].addActionListener(this);  
-}//eof for  
-  
+}   
 reset=new JButton("RESET");  
 reset.setBounds(100,350,100,50);  
 add(reset);  
-reset.addActionListener(this);  
-  
-}//eof showButton  
-  
-/*********************************************************/  
+reset.addActionListener(this);   
+}
 public  void check(int num1){  
 for(ii=0;ii<=7;ii++){  
    for(jj=1;jj<=3;jj++){  
         if(a[ii][jj]==num1){ a[ii][4]=11;  }  
   
-   }//eof for jj  
+   }
   
 }//eof for ii  
 }//eof check  
