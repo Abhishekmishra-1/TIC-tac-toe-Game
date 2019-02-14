@@ -63,7 +63,7 @@ public void complogic(int num){
          b[yesnull-1].setIcon(ic2);   
          this.check(yesnull); set=false;break;  
          }                                  
-      }                                     //eof if 1  
+      }                                      
       else  
       if(a[i][0]==10){  
                 for(j=1;j<=3;j++){          
