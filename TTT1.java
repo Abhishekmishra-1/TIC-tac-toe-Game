@@ -59,10 +59,10 @@ public void complogic(int num){
                }                         
             else{ yesnull=a[i][j]; }  
         }                                 
-      if(count==2){                     //if 2  
+      if(count==2){                     
          b[yesnull-1].setIcon(ic2);   
          this.check(yesnull); set=false;break;  
-         }                                  //eof if 2  
+         }                                  
       }                                     //eof if 1  
       else  
       if(a[i][0]==10){  
