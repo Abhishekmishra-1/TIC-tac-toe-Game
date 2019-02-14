@@ -49,12 +49,12 @@ public void complogic(int num){
       if(a[i][j]==num){  a[i][0]=11; a[i][4]=10;    }  
       }  
   }  
-   for(i=0;i<=7;i++){              // for 1  
+   for(i=0;i<=7;i++){              
      set=true;               
-   if(a[i][4]==10){               //if 1   
+   if(a[i][4]==10){              
        int count=0;  
-       for(j=1;j<=3;j++){         //for 2   
-           if(b[(a[i][j]-1)].getIcon()!=null){ //if 2  
+       for(j=1;j<=3;j++){         
+           if(b[(a[i][j]-1)].getIcon()!=null){ 
              count++;  
                }                        //eof if 2  
             else{ yesnull=a[i][j]; }  
@@ -66,14 +66,14 @@ public void complogic(int num){
       }                                     //eof if 1  
       else  
       if(a[i][0]==10){  
-                for(j=1;j<=3;j++){         //for2  
-                    if(b[(a[i][j]-1)].getIcon()==null){ //if 1  
+                for(j=1;j<=3;j++){          
+                    if(b[(a[i][j]-1)].getIcon()==null){ 
                       b[(a[i][j]-1)].setIcon(ic2);  
                         this.check(a[i][j]);  
                          set=false;  
                          break;  
-                    }                         //eof if1  
-                }                             //eof for 2  
+                    }                        
+                }                          
                 if(set==false)  
                       break;                                                         
             }//eof elseif  
