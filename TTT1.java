@@ -80,10 +80,10 @@ public void complogic(int num){
   
     if(set==false)  
          break;      
- }//eof for 1  
+ }
   
   
-}//eof complogic  
+}
   
   
 /*********************************************************/  
