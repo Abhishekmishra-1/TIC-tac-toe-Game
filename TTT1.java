@@ -56,9 +56,9 @@ public void complogic(int num){
        for(j=1;j<=3;j++){         
            if(b[(a[i][j]-1)].getIcon()!=null){ 
              count++;  
-               }                        //eof if 2  
+               }                         
             else{ yesnull=a[i][j]; }  
-        }                               //eof for 2  
+        }                                 
       if(count==2){                     //if 2  
          b[yesnull-1].setIcon(ic2);   
          this.check(yesnull); set=false;break;  
