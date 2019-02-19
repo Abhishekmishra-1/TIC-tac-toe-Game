@@ -120,8 +120,7 @@ public void itemStateChanged(ItemEvent e){
 remove(c1);remove(c2);  
  repaint(0,0,330,450);  
  showButton();  
-}//eof itemstate  
-/************************************************************/  
+}
   
 public void actionPerformed(ActionEvent e){  
 /********************************/  
