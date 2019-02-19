@@ -83,11 +83,7 @@ public void complogic(int num){
  }
   
   
-}
-  
-  
-/*********************************************************/  
-  
+} 
 TTT1(){  
 super("Tic ac toe by Abhishek");  
   
