@@ -94,9 +94,7 @@ c1.setBounds(120,80,100,40);
 c2.setBounds(120,150,100,40);  
 add(c1); add(c2);  
 c1.addItemListener(this);  
-c2.addItemListener(this);  
-  
-  
+c2.addItemListener(this);   
 state=true;type=true;set=true;  
 ic1=new ImageIcon("ic1.jpg");  
 ic2=new ImageIcon("ic2.jpg");  
@@ -123,13 +121,12 @@ remove(c1);remove(c2);
 }
   
 public void actionPerformed(ActionEvent e){  
-/********************************/  
 if(type==true)//logicfriend  
 {  
 if(e.getSource()==reset){  
  for(i=0;i<=8;i++){  
    b[i].setIcon(null);  
-  }//eof for    
+  }   
 }  
 else{   
   for(i=0;i<=8;i++){  
