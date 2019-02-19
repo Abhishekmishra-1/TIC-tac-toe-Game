@@ -143,7 +143,7 @@ else if(type==false){
       if(e.getSource()==reset){  
           for(i=0;i<=8;i++){  
             b[i].setIcon(null);  
-          }//eof for   
+          } 
        for(i=0;i<=7;i++)  
         for(j=0;j<=4;j++)  
         a[i][j]=a1[i][j]; 
