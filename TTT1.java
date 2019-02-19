@@ -107,9 +107,7 @@ setLayout(null);
 setSize(330,450);  
 setVisible(true);  
 setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);  
-}//eof constructor  
-  
-/*************************************************************/  
+}  
 public void itemStateChanged(ItemEvent e){  
  if(c1.getState())  
   {   
