@@ -136,8 +136,8 @@ else{
             b[i].setIcon(icon);  
             }  
        }   
-  }//eof for  
-}//eof else  
+  }  
+} 
 }//eof logicfriend  
 else if(type==false){                           //  complogic  
       if(e.getSource()==reset){  
