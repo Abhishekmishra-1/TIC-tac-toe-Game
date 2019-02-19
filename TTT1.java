@@ -121,7 +121,7 @@ remove(c1);remove(c2);
 }
   
 public void actionPerformed(ActionEvent e){  
-if(type==true)//logicfriend  
+if(type==true) 
 {  
 if(e.getSource()==reset){  
  for(i=0;i<=8;i++){  
